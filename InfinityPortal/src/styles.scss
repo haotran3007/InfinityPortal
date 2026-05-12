@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+$font-family-sans-serif: "Roboto", Arial, sans-serif;
+$font-family-base: $font-family-sans-serif;
+$font-family-pt-mono: $font-family-sans-serif;
+$headings-font-family: $font-family-sans-serif;
+$display-font-family: $font-family-sans-serif;
+$input-btn-font-family: $font-family-sans-serif;
+
+@import "../assets/scss/astro-ecommerce";
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #fff;
+  font-family: "Roboto", Arial, sans-serif;
+}
